@@ -1,0 +1,11 @@
+{
+  "name": "desafio-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass style.scss css/style.css -w  -s compressed"
+  },
+  "author": "",
+  "license": "ISC"
+}

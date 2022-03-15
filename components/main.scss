@@ -1,0 +1,10 @@
+.border {
+box-shadow: 6px 4px 6px;
+margin-bottom: 50px;
+
+&__texto {
+    color: $colorP;
+    font-size: $TextSize !important;
+    }
+}
+
