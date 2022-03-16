@@ -2,3 +2,18 @@
     margin: 0;
     padding: 0;
 }
+
+.textoo{
+    text-align: center;
+    text-decoration: solid;
+}
+
+@mixin normal ($MarginB, $MarginT) {
+    margin-bottom: $MarginB;
+    margin-top: $MarginT;
+}
+
+$headings: (
+h1:10rem,
+color:grey,
+);

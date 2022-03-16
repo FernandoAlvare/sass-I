@@ -1,10 +1,20 @@
 .border {
+@include normal (10rem, 10rem);
 box-shadow: 6px 4px 6px;
-margin-bottom: 50px;
+
 
 &__texto {
     color: $colorP;
     font-size: $TextSize !important;
     }
+
 }
+
+.text-t {
+    @extend .textoo;
+    color: blue;
+    $h2: map-get($map: $headings, $key:h1 );
+}
+ 
+
 
